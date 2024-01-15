@@ -1,0 +1,12 @@
+[package]
+name = "hello-runner"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+cargo-component-bindings = "0.6.0"
+
+[package.metadata.component]
+package = "component:hello-runner"
+
+[package.metadata.component.dependencies]

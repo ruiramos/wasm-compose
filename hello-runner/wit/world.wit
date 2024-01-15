@@ -1,0 +1,7 @@
+package component:hello-runner;
+
+/// An example world for the component to target.
+world hello-runner {
+    import hello-world: func() -> string;
+}
+
