@@ -1,6 +1,7 @@
 search-paths:
-  - ./hello-runner/target/wasm32-wasi/debug
+  - ./hello-runner/target/wasm32-wasi/release
+  - ./hello-world/target/wasm32-wasi/release
 
 dependencies:
   hello-world:
-    path: ./hello-world/target/wasm32-wasi/debug/hello_world.wasm
+    path: ./hello-world/target/wasm32-wasi/release/hello_world.wasm
