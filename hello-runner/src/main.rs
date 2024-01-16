@@ -1,6 +1,6 @@
 cargo_component_bindings::generate!();
 
-use bindings::hello_world;
+use bindings::component::hello_wasm::hello::hello_world;
 
 fn main() {
     println!("Hello runner!");

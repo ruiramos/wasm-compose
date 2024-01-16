@@ -1,0 +1,13 @@
+package component:hello-wasm@0.0.1;
+
+interface hello {
+  hello-world: func() -> string;
+}
+
+world provider {
+  export hello;
+}
+
+world runner {
+  import hello;
+} 

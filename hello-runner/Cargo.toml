@@ -7,6 +7,6 @@ edition = "2021"
 cargo-component-bindings = "0.6.0"
 
 [package.metadata.component]
-package = "component:hello-runner"
+target = { path = "../world.wit",  world = "runner" }
 
 [package.metadata.component.dependencies]

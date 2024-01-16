@@ -2,6 +2,8 @@ search-paths:
   - ./hello-runner/target/wasm32-wasi/release
   - ./hello-world/target/wasm32-wasi/release
 
-dependencies:
-  hello-world:
-    path: ./hello-world/target/wasm32-wasi/release/hello_world.wasm
+instantiations:
+  root:
+    arguments:
+      component:hello-wasm/hello@0.0.1:
+        instance: helloworld

@@ -1,6 +1,6 @@
 cargo_component_bindings::generate!();
 
-use bindings::Guest;
+use bindings::exports::component::hello_wasm::hello::Guest;
 
 struct Component;
 

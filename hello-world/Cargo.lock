@@ -30,7 +30,7 @@ dependencies = [
 ]
 
 [[package]]
-name = "hello-world"
+name = "helloworld"
 version = "0.1.0"
 dependencies = [
  "cargo-component-bindings",
