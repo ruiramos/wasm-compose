@@ -4,7 +4,7 @@ version = "0.1.0"
 edition = "2021"
 
 [dependencies]
-cargo-component-bindings = "0.6.0"
+wit-bindgen = { version = "0.16.0", default-features = false, features = ["realloc"] }
 
 [package.metadata.component]
 target = { path = "../world.wit",  world = "runner" }

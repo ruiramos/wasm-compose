@@ -1,4 +1,4 @@
-cargo_component_bindings::generate!();
+mod bindings;
 
 use bindings::exports::component::hello_wasm::hello::Guest;
 

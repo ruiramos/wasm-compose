@@ -1,4 +1,4 @@
-cargo_component_bindings::generate!();
+mod bindings;
 
 use bindings::component::hello_wasm::hello::hello_world;
 
